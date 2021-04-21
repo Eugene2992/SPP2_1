@@ -1,0 +1,16 @@
+{
+  "name": "spp-l1",
+  "version": "1.0.0",
+  "description": "SPP L1",
+  "main": "server.js",
+  "author": {
+    "name": "Krot"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.2",
+    "multer": "^1.4.2"
+  }
+}

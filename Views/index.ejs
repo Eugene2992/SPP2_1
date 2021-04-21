@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang=ru-RU>
+<head>
+    <title>Главная страница</title>
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
+</head>
+<body style="background-color: rgba(102, 205, 70, 5.5)">
+    <h1>Главная страница</h1>
+    <table>
+        <thead>
+            <tr>
+                <th style="padding: 5px">PHOTO</th>
+                <th style="padding: 5px">NAME</th>
+                <th style="padding: 5px">SIZE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% data.forEach(function(dataField) { %>
+                <tr>
+                    <td style="border-color: black; border: 3px solid">
+                        <img src="<%=typeof dataField.photo !='undefined' ? dataField.photo : '' %>" width="250">
+                    </td>
+                    <td>
+                        <label style="padding: 5px; border-radius: 10px; background-color: #98FB98">
+                            <%= dataField.name%>
+                        </label>
+                    </td>
+                    <td>
+                        <label style="padding: 5px; border-radius: 10px; background-color: #98FB98">
+                            <%= dataField.size%> Б
+                        </label>
+                    </td>
+                </tr>
+                <% }); %>
+        </tbody>
+    </table>
+    <h1>Добавление</h1>
+     
+    <form method="post" enctype="multipart/form-data" style="padding: 15px; border-radius: 8px; border-color: grey; border: 1px solid; width: 330px; background-color: rgb(102, 205, 170)">
+        <label>Добавь картинку!</br>
+            <input type="file" name="photo">
+        </label>
+        <input type="submit" value="Добавить">
+    </form>
+</body>
+<html>

@@ -1,0 +1,6 @@
+C:\Users\home\Desktop\SPP-L1-master\SPP-L1-master\obj\Debug\SPP L1.njsprojAssemblyReference.cache
+C:\Users\home\Desktop\SPP-L1-master\SPP-L1-master\obj\Debug\SPP L1.njsproj.CoreCompileInputs.cache
+C:\Users\home\Desktop\SPP-L1-master\SPP-L1-master\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Eugene\Desktop\SPP2_1-main\obj\Debug\SPP L1.njsprojAssemblyReference.cache
+C:\Users\Eugene\Desktop\SPP2_1-main\obj\Debug\SPP L1.njsproj.CoreCompileInputs.cache
+C:\Users\Eugene\Desktop\SPP2_1-main\bin\Microsoft.NodejsTools.WebRole.dll
